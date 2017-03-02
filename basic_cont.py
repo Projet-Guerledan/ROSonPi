@@ -9,18 +9,18 @@ p2=32
 st='Demarre avec a. Dirige avec zqsd. Stop avec r'
 
 GPIO.setmode(GPIO.BOARD)
-GPIO.setup(pin1,GPIO.OUT)
-GPIO.setup(pin2,GPIO.OUT)
+GPIO.setup(p1,GPIO.OUT)
+GPIO.setup(p2,GPIO.OUT)
 
 def armMotors():
-        p1=GPIO.PWM(pin1,50)
-        p2=GPIO.PWM(pin2,50)
+        p1=GPIO.PWM(p1,50)
+        p2=GPIO.PWM(p2,50)
         p1.start(5.0)
         print('Arming Motor 1')
         p2.start(5.0)
         print('Arming Motor 2')
-        print('Wait 10s')
-        time.sleep(10)
+        print('Wait 5s')
+        time.sleep(5)
 
 def forward():
         p1.ChangeDutyCycle(6.0)
