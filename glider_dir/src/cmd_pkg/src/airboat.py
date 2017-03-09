@@ -10,6 +10,7 @@ def publisher():
     rospy.init_node('state', anonymous=True)
     rate = rospy.Rate(10) #10 hz
     while not rospy.is_shutdown():
+        rospy.loginfo()
         pub.publish(data)
         rate.sleep()
 
