@@ -1,0 +1,8 @@
+prefix=/home/master/Documents/Guerledan/ROSonPi/glider_dir/devel
+
+Name: loc_pkg
+Description: Description of loc_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/master/Documents/Guerledan/ROSonPi/glider_dir/devel/lib 
+Requires: 
