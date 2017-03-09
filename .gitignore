@@ -1,3 +1,12 @@
+# Files
+simulation.py
+test.py
+test0.py
+test1.py
+
+# python pyc files
+*.pyc
+
 # Object files
 *.o
 *.ko
@@ -31,3 +40,7 @@
 # Debug files
 *.dSYM/
 *.su
+
+
+Folders
+__pycache__
