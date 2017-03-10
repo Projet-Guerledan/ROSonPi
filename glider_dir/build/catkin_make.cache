@@ -1,2 +1,2 @@
-airboat_msg:cmd_pkg:loc_pkg
+airboat_msg:cmd_pkg:loc_pkg:mission_pkg:reg_pkg
 -DCATKIN_DEVEL_PREFIX=/home/master/Documents/Guerledan/ROSonPi/glider_dir/devel -DCMAKE_INSTALL_PREFIX=/home/master/Documents/Guerledan/ROSonPi/glider_dir/install -G Unix Makefiles

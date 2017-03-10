@@ -521,6 +521,42 @@ loc_pkg/preinstall:
 .PHONY : loc_pkg/preinstall
 
 #=============================================================================
+# Directory level rules for directory mission_pkg
+
+# Convenience name for "all" pass in the directory.
+mission_pkg/all:
+
+.PHONY : mission_pkg/all
+
+# Convenience name for "clean" pass in the directory.
+mission_pkg/clean:
+
+.PHONY : mission_pkg/clean
+
+# Convenience name for "preinstall" pass in the directory.
+mission_pkg/preinstall:
+
+.PHONY : mission_pkg/preinstall
+
+#=============================================================================
+# Directory level rules for directory reg_pkg
+
+# Convenience name for "all" pass in the directory.
+reg_pkg/all:
+
+.PHONY : reg_pkg/all
+
+# Convenience name for "clean" pass in the directory.
+reg_pkg/clean:
+
+.PHONY : reg_pkg/clean
+
+# Convenience name for "preinstall" pass in the directory.
+reg_pkg/preinstall:
+
+.PHONY : reg_pkg/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

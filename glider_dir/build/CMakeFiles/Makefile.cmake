@@ -19,6 +19,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "cmd_pkg/catkin_generated/package.cmake"
   "loc_pkg/catkin_generated/ordered_paths.cmake"
   "loc_pkg/catkin_generated/package.cmake"
+  "mission_pkg/catkin_generated/ordered_paths.cmake"
+  "mission_pkg/catkin_generated/package.cmake"
+  "reg_pkg/catkin_generated/ordered_paths.cmake"
+  "reg_pkg/catkin_generated/package.cmake"
   "/home/master/Documents/Guerledan/ROSonPi/glider_dir/src/CMakeLists.txt"
   "/home/master/Documents/Guerledan/ROSonPi/glider_dir/src/airboat_msg/CMakeLists.txt"
   "/home/master/Documents/Guerledan/ROSonPi/glider_dir/src/airboat_msg/package.xml"
@@ -26,6 +30,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/master/Documents/Guerledan/ROSonPi/glider_dir/src/cmd_pkg/package.xml"
   "/home/master/Documents/Guerledan/ROSonPi/glider_dir/src/loc_pkg/CMakeLists.txt"
   "/home/master/Documents/Guerledan/ROSonPi/glider_dir/src/loc_pkg/package.xml"
+  "/home/master/Documents/Guerledan/ROSonPi/glider_dir/src/mission_pkg/CMakeLists.txt"
+  "/home/master/Documents/Guerledan/ROSonPi/glider_dir/src/mission_pkg/package.xml"
+  "/home/master/Documents/Guerledan/ROSonPi/glider_dir/src/reg_pkg/CMakeLists.txt"
+  "/home/master/Documents/Guerledan/ROSonPi/glider_dir/src/reg_pkg/package.xml"
   "/opt/ros/kinetic/share/catkin/cmake/../package.xml"
   "/opt/ros/kinetic/share/catkin/cmake/all.cmake"
   "/opt/ros/kinetic/share/catkin/cmake/assert.cmake"
@@ -148,6 +156,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "airboat_msg/CMakeFiles/CMakeDirectoryInformation.cmake"
   "cmd_pkg/CMakeFiles/CMakeDirectoryInformation.cmake"
   "loc_pkg/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "mission_pkg/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "reg_pkg/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

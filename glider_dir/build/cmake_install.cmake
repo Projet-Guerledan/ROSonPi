@@ -120,6 +120,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/master/Documents/Guerledan/ROSonPi/glider_dir/build/airboat_msg/cmake_install.cmake")
   include("/home/master/Documents/Guerledan/ROSonPi/glider_dir/build/cmd_pkg/cmake_install.cmake")
   include("/home/master/Documents/Guerledan/ROSonPi/glider_dir/build/loc_pkg/cmake_install.cmake")
+  include("/home/master/Documents/Guerledan/ROSonPi/glider_dir/build/mission_pkg/cmake_install.cmake")
+  include("/home/master/Documents/Guerledan/ROSonPi/glider_dir/build/reg_pkg/cmake_install.cmake")
 
 endif()
 

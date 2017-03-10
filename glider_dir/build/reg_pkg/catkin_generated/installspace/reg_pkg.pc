@@ -1,0 +1,8 @@
+prefix=/home/master/Documents/Guerledan/ROSonPi/glider_dir/install
+
+Name: reg_pkg
+Description: Description of reg_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/master/Documents/Guerledan/ROSonPi/glider_dir/install/lib 
+Requires: 
