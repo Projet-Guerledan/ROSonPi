@@ -46,12 +46,9 @@ class Airboat():
         #TODO find a control function
         A = 0.5
         B = 1
-        self.power = self.power + A*self.dist2tar**2 + B*(self.u-self.cap)
-        if diff != 0:
-            self.power = min(100,self.power + k*20/diff**2)
-        elif k !=0:
-            self.power = min(100,self.power-20*np.sqrt(1/k))
-
+        self.power = self.power + min([100,A*self.dist2tar**2 + B*np.sqrt((self.u-self.cap))])
+        self.power = min([100,self.power])
+        diff = max([-1,min([self.u,1])])
         rospy.spin()
 
 
