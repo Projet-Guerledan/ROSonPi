@@ -1,7 +1,7 @@
 #! /usr/bin/python
 # Written by Dan Mandle http://dan.mandle.me September 2012
 # License: GPL 2.0
-# Modified and Adapted by P.Benet and N. MEHDI for Guerledan 2017
+# Modified and Adapted by P.Benet and N.Mehdi for Guerledan 2017
 
 
 import RPi.GPIO as GPIO
